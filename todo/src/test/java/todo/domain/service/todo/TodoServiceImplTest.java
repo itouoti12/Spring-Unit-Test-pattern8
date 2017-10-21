@@ -46,7 +46,7 @@ public class TodoServiceImplTest {
 		//引数設定
 		String todoId = "cceae402-c5b1-440f-bae2-7bee19dc17fb";
 		
-		//updateメソッドのテスト
+		//finishメソッドのテスト
 		Todo todo = target.finish(todoId);
 		
 		//結果検証（assertTodoメソッドはメソッドの実行によって返ってきたTodoオブジェクトを検証するprivateメソッド）
